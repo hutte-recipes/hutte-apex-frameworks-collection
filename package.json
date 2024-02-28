@@ -4,6 +4,7 @@
     "version": "1.0.0",
     "description": "Hutte Apex Frameworks Collection",
     "scripts": {
-        "create:package:version": "sf package version create --package \"Hutte Frameworks Collection\"  --code-coverage --installation-key-bypass --wait 300"
+        "precreate:package:version": "./scripts/bash/frameworks-clean-before-packaging.sh",
+        "create:package:version": "sf package version create --package \"Hutte Apex Collection\"  --code-coverage --installation-key-bypass --wait 300"
     }
 }
