@@ -1,0 +1,21 @@
+{
+  "packageDirectories": [
+    {
+      "path": "frameworks",
+      "package": "Hutte Apex Collection",
+      "definitionFile": "config/project-scratch-def.json",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "default": true,
+      "versionDescription": "This package includes a Hutte-refined collection of Open Source packages for Salesforce Development"
+    }
+  ],
+  "name": "hutte-apex-frameworks",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "Hutte Apex Collection": "0HoS7000000004rKAA",
+    "Hutte Apex Collection@1.0.0-1": "04tS70000000IxpIAE"
+  }
+}
