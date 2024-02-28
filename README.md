@@ -28,6 +28,20 @@ Notice that these are packaged in an Unlocked package and only require installat
 
 <img src="./docs/images/unlocked-package-installation.png" alt="drawing" width="500"/>
 
+## Git Clone Considerations
+
+As the frameworks are represented by Git submodules, in order to retrieve their content from the original repository, we recommend to clone this repository using:
+
+```bash
+git clone --recurse-submodules -j8 https://github.com/hutte-recipes/hutte-apex-frameworks-collection.git
+```
+
+Otherwise, if you have already cloned the repository in the standard way, you can also retrieve the submodules content using:
+
+```bash
+git submodule update --init --recursive
+```
+
 ## Considerations
 
 As a baseline, these frameworks cover the basics of a Salesforce implementation, for example, a Apex triggers management using [Apex Trigger Actions](https://github.com/mitchspano/apex-trigger-actions-framework), a logging system with [Nebula Logger](https://github.com/jongpie/NebulaLogger) or a SOQL light-weight library with [SOQL-Lib](https://github.com/beyond-the-cloud-dev/soql-lib), among others.
