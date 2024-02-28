@@ -11,8 +11,5 @@ package.xml
 # LWC Jest
 **/__tests__/**
 
-# Only core of NebulaLogger is required
-frameworks/NebulaLogger/nebula-logger/extra-tests/**
-frameworks/NebulaLogger/nebula-logger/managed-package/**
-frameworks/NebulaLogger/nebula-logger/plugins/**
-frameworks/NebulaLogger/nebula-logger/recipes/**
+# Frameworks
+frameworks/**
